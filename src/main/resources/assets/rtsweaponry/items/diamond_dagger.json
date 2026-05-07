@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type" : "minecraft:model",
+    "model": "rtsweaponry:item/diamond_dagger"
+  }
+}

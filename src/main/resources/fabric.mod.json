@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "testmod",
+	"id": "rtsweaponry",
 	"version": "${version}",
-	"name": "testmod",
+	"name": "rtsweaponry",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,20 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/testmod/icon.png",
+	"icon": "assets/rtsweaponry/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.retrospeck.testmod.TestMod"
+			"com.retrospeck.rtsweaponry.RTSWeaponry"
 		],
 		"client": [
-			"com.retrospeck.testmod.TestModClient"
-		],
-		"fabric-datagen": [
-			"com.retrospeck.testmod.TestModDataGenerator"
+			"com.retrospeck.rtsweaponry.RTSWeaponryClient"
 		],
 		"cardinal-components-entity": [
-			"com.retrospeck.testmod.ModComponents"
+			"com.retrospeck.rtsweaponry.ModComponents"
 		]
 	},
 	"depends": {
@@ -39,7 +36,7 @@
 	},
 	"custom": {
 		"cardinal-components": [
-			"testmod:mana"
+			"rtsweaponry:mana"
 		]
 	}
 }
